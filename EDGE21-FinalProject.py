@@ -23,7 +23,7 @@ else:
     score += 0
 
 print("What's your favourite animal?")
-options = ['Birds', 'Lions', 'Giraffes', 'Sharks']
+options = ['Elephants', 'Lions', 'Giraffes', 'Sharks']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
@@ -43,7 +43,7 @@ else:
     score += 0
 
 print("What's your favourite vacation destination?")
-options = ['Mountains', 'Beach', 'Lake', 'Desert']
+options = ['Mountains', 'Beach', 'Lake', 'Jungle']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
