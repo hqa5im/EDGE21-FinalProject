@@ -19,6 +19,7 @@ for i, item in enumerate(options, 1):
 answer = input("Ans: ")
 if answer == "4":
     score += 1
+#elif answer == ""
 else:
     score += 0
 
@@ -82,6 +83,18 @@ if answer == "3":
 else:
     score += 0
 
-#to check is score counter is working
+print("What's your favourite number?")
+options = ['1', '3', '7', '11']
+for i, item in enumerate(options, 1):
+    print(i, '. ' + item, sep='', end=' ')
+answer = input("Ans: ")
+if answer == "1":
+    score += 1
+else:
+    score += 0
+
+
+
+#to check if score counter is working
 print("Your score is: ")
 print(score)
