@@ -17,9 +17,8 @@ options = ['Ice cream', 'Chocolate chip cookies', 'Cupcakes', 'Pudding']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "4":
+if answer == "4" or "2":
     score += 1
-#elif answer == ""
 else:
     score += 0
 
@@ -28,7 +27,7 @@ options = ['Birds', 'Lions', 'Giraffes', 'Sharks']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "1":
+if answer == "1" or "3":
     score += 1
 else:
     score += 0
@@ -38,7 +37,7 @@ options = ['Flying', 'Invisibility', 'Time travel', 'Super strength']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "1":
+if answer == "1" or "3":
     score += 1
 else:
     score += 0
@@ -48,7 +47,7 @@ options = ['Mountains', 'Beach', 'Lake', 'Desert']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "1":
+if answer == "1" or "4":
     score += 1
 else:
     score += 0
@@ -78,7 +77,7 @@ options = ['Kind', 'Smart', 'Loyal', 'Crackhead']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "3":
+if answer == "3" or "1" or "4":
     score += 1
 else:
     score += 0
@@ -88,7 +87,7 @@ options = ['one', 'three', 'seven', 'elven']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "1":
+if answer == "1" or "4":
     score += 1
 else:
     score += 0
