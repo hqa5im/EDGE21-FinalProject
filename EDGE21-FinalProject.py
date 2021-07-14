@@ -84,7 +84,7 @@ else:
     score += 0
 
 print("What's your favourite number?")
-options = ['1', '3', '7', '11']
+options = ['one', 'three', 'seven', 'elven']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
