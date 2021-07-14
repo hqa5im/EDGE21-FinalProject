@@ -113,5 +113,5 @@ elif score == 0:
 
 
 #to check if score counter is working
-print("Your score is: ")
-print(score)
+# print("Your score is: ")
+# print(score)
