@@ -93,6 +93,24 @@ if answer == "1":
 else:
     score += 0
 
+if score == 8:
+    print("You're white! Kinda basic but a classic ")
+elif score == 7:
+    print("You're blue! A calm individual who always seems like they have it under control even if they may not ")
+elif score == 6:
+    print("You're red! A fiery beast who's always ready to fight for their rights ")
+elif score == 5:
+    print("You're yellow! You got those good vibes ")
+elif score == 4:
+    print("You're green! Quite chill of a person; probably would be down with either staying at home or going out for an adventure ")
+elif score == 3:
+    print("You're orange! Both a color and fruit making you quite unique ")
+elif score == 2:
+    print("You're purple! Regal, elegant and sophisticated. A true Queen/King ")
+elif score == 1:
+    print("You're black! A mystery; probably lives life by the phrase 'keep your friends close but your enemies closer' ")
+elif score == 0:
+    print("Damnn you're the rainbow. The best of all worlds")
 
 
 #to check if score counter is working
