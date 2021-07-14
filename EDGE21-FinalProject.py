@@ -77,7 +77,7 @@ options = ['Kind', 'Smart', 'Loyal', 'Crackhead']
 for i, item in enumerate(options, 1):
     print(i, '. ' + item, sep='', end=' ')
 answer = input("Ans: ")
-if answer == "3" or "1" or "4":
+if answer == "3" or "4":
     score += 1
 else:
     score += 0
